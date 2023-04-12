@@ -1,0 +1,38 @@
+
+.login-bg {
+    background-color: white;
+    opacity: 80%;
+    height:70vh;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 300px) {
+    .login-bg {
+        width: 35vh;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 460px)  {
+    .login-bg {
+        width: 40vh;
+    }
+}
+
+@media only screen and (min-width: 460px) and (max-width: 600px)  {
+    .login-bg {
+        width: 60vh;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px)  {
+    .login-bg {
+        width: 65vh;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .login-bg {
+        width: 85vh;
+    }
+}

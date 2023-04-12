@@ -1,0 +1,17 @@
+#farmergif {
+	border-radius: 3%;
+}
+
+.content {
+	background: url("https://cdn.dribbble.com/users/1206528/screenshots/4270242/01.gif")
+		no-repeat center center fixed;
+	position: fixed;
+	background-size: cover;
+	/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.top-pad {
+    margin-top : 5%;
+}
